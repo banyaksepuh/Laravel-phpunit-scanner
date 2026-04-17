@@ -40,12 +40,12 @@ Memverifikasi apakah command execution berhasil
 3. Validation (Anti False Positive)
 
 Response dianggap valid vulnerability jika:
-
 ✅ Mengandung indikator OS:
-Linux
-x86_64
-Darwin
-GNU/Linux
+- Linux
+- x86_64
+- Darwin
+- GNU/Linux
+
 ❌ Tidak mengandung indikator framework/error:
 ```bash
 - Laravel, Symfony, Drupal, Kohana
