@@ -30,7 +30,9 @@ Tool akan mencoba beberapa path umum PHPUnit:
 2. Payload Execution
 
 Scanner akan mengirim payload:
+```bash
 <?php system('uname -a'); ?>
+```
 Tujuannya:
 Mengambil informasi sistem (OS)
 Memverifikasi apakah command execution berhasil
@@ -44,11 +46,12 @@ x86_64
 Darwin
 GNU/Linux
 ❌ Tidak mengandung indikator framework/error:
-Laravel, Symfony, Drupal, Kohana
-<html>, <style>
-Fatal error, Warning, Deprecated
-<?php, vendor/composer
-  
+```bash
+- Laravel, Symfony, Drupal, Kohana
+- <html>, <style>
+- Fatal error, Warning, Deprecated
+- <?php, vendor/composer
+```
 ---
 
 ## ⚙️ Features
