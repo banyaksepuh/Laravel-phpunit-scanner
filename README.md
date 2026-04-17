@@ -40,6 +40,7 @@ Memverifikasi apakah command execution berhasil
 3. Validation (Anti False Positive)
 
 Response dianggap valid vulnerability jika:
+
 ✅ Mengandung indikator OS:
 - Linux
 - x86_64
